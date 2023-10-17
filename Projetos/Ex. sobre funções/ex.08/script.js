@@ -1,0 +1,9 @@
+function tamanhoDaString(tam) {
+    if (tam.length > 10){
+        console.log("Texto muito longo");
+    } else {
+        console.log("Texto dentro do limite");
+    }
+}
+console.log(tamanhoDaString("Abacate"));
+console.log(tamanhoDaString("Paralelogramo"));
